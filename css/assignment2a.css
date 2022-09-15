@@ -1,0 +1,30 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1,h2,h3 {
+  margin: 1rem;
+}
+
+body {
+  margin: auto;
+  width: 90%;
+  text-align: center;
+}
+
+
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.wrapper p {
+  width: 70%;
+  margin-top: 4em;
+}
+
